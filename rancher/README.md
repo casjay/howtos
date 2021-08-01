@@ -4,7 +4,7 @@ Docker
 
 ```shell
 sudo groupadd docker; sudo usermod -aG docker $USER; newgrp docker 
-curl -fsSL https://github.com/docker/docker-install/raw/master/install.sh | sudo sh
+curl -fsSL https://github.com/docker/docker-install/raw/main/install.sh | sudo sh
 sudo systemctl enable --now docker
 ```
   

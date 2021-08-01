@@ -140,7 +140,7 @@ go to http://yourserverip:8096/ and configure it
 ```bash
 mkdir -p /var/airsonic
 yum install java-1.8.0-openjdk-headless -y
-wget https://github.com/airsonic/airsonic/raw/master/contrib/airsonic.service -O /etc/systemd/system/airsonic.service
+wget https://github.com/airsonic/airsonic/raw/main/contrib/airsonic.service -O /etc/systemd/system/airsonic.service
 wget https://github.com/airsonic/airsonic/releases/download/v10.1.2/airsonic.war -O /var/airsonic/airsonic.war
 mkdir -p /mnt/media
 echo " 10.0.254.1:/mnt/Volume_1/media           /mnt/media                   nfs defaults,rw 0 0" >> /etc/fstab

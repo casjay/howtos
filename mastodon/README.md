@@ -5,7 +5,7 @@ curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
 wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo  
 rpm -Uvh https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-centos96-9.6-3.noarch.rpm  
   
-wget https://github.com/CasjaysDev/packages/raw/master/rhel/mastodon.txt -O /tmp/mastodon.txt  
+wget https://github.com/CasjaysDev/packages/raw/main/rhel/mastodon.txt -O /tmp/mastodon.txt  
 yum install -y $(cat /tmp/mastodon.txt)  
   
 /usr/pgsql-9.6/bin/postgresql96-setup initdb  

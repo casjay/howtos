@@ -14,6 +14,6 @@ pip install -r requirements.txt
 ./manage.py syncdb
 ./manage.py collectstatic
 
-wget https://github.com/casjay-base/howtos/raw/master/webvirt/webvirt.supervisord.ini -O  /etc/supervisord.d/webvirtmgr.ini
-wget https://github.com/casjay-base/howtos/raw/master/webvirt/webvirt-nginx.conf -O /etc/nginx/conf.d/webvirt.conf
+wget https://github.com/casjay-base/howtos/raw/main/webvirt/webvirt.supervisord.ini -O  /etc/supervisord.d/webvirtmgr.ini
+wget https://github.com/casjay-base/howtos/raw/main/webvirt/webvirt-nginx.conf -O /etc/nginx/conf.d/webvirt.conf
 ```

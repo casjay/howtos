@@ -4,8 +4,8 @@
 # Optionally add user
 #adduser --system --shell=/bin/bash --home=/var/lib/homeassistant  homeassistant
 
-wget https://github.com/casjay-base/howtos/raw/master/home-assistant/rpm-packages.txt -O /tmp/hass-rpms.txt
-wget https://github.com/casjay-base/howtos/raw/master/home-assistant/requirements-el7.txt -O /tmp/hass-pips.txt
+wget https://github.com/casjay-base/howtos/raw/main/home-assistant/rpm-packages.txt -O /tmp/hass-rpms.txt
+wget https://github.com/casjay-base/howtos/raw/main/home-assistant/requirements-el7.txt -O /tmp/hass-pips.txt
 
 yum install -y $(cat /tmp/hass-rpms.txt)
 
